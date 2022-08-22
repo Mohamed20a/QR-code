@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8eaec;
+}
+
+.form,.qr-generator{
+    width: 300px;
+    padding: 20px;
+    background-color: #e8eaec;
+    border-radius: 10px;
+    box-shadow: 
+    12px 12px 32px rgb(13, 39, 80, .25),
+    -10px 10px 15px #fff;
+    border: 5px solid #e8eaec;
+}
+
+.form .inputBx{
+    margin-bottom: 20px;
+}
+
+.inputBx label{
+    font-size: 18px;
+    color: #111;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.inputBx input {
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    color: #222;
+    padding: 10px;
+    box-shadow: 
+    6px 6px 8px rgb(13, 39, 80, .25),
+    -6px -6px 10px #fff,
+    inset -8px -8px 12px rgb(255,255,255,.7),
+    inset 5px 5px 8px rgb(13, 39, 80, .2);
+}
+
+.inputBx button.code{
+    width: 100%;
+    height: 40px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    border: none;
+    transition: .6 ease-in-out;
+}
+
+.inputBx button:hover{
+    transition: .3s ease-in-out;
+    color: #111;
+    background: #fff;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.rester{
+    width: 50%;
+    height: 40px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 25%;
+    border: none;
+    transition: .6 ease-in-out;
+}
+
+.qr-generator{
+    transition: .5s ease-in-out;
+    margin-top: 20px;
+}
+
+.qr-generator.hidden{
+    transition: 0s;
+    opacity: 0;
+}
+
+.qr-generator img {
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    font-size: 17px;
+    background: #e8eaec;
+    background: center;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: 'toyor-aljanah';
+}
+
+
+.darkmode--activated p, .darkmode--activated input {
+    color: #000;
+}
+    
+.button {
+    isolation: isolate;
+}
+    
+.darkmode--activated .logo {
+    mix-blend-mode: difference;
+}
