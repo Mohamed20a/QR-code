@@ -1,5 +1,7 @@
 # QR-code
 
+<img align="center" width="80%" src="https://github.com/Mohamed20a/My-Portfolio/blob/main/assets/img/portfolio/QR code.png">
+
 ## What is QR code?
  Programming a site to download any link to QR Code in { Html, Css, Javascript }.
 
